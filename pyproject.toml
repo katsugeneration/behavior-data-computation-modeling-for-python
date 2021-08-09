@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "behavior-data-computation-modeling-for-python"
+version = "0.1.0"
+description = ""
+authors = ["Katsuya Shimabukuro <katsu.generation.888@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.4.2"
+pystan-jupyter = "^0.2b1"
+tensorflow-probability = "^0.13.0"
+tensorflow = "^2.5.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.0.3"
+mypy = "^0.910"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
